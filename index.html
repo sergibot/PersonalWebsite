@@ -90,40 +90,113 @@
         </div>
     </div>
     <div class="row" id="pub" style="display:none">
-        <div class="col-sm-4">
-            <img src="static/img/sergi_bass.jpg" class="img-thumbnail">
-            <p class="fs-6 text-end p-2">Photo Credit: <a href="https://sharad1126.github.io/">Sharad Agarwal</a>
-        </div>
         <div class="col">
             <h1 class="display-1">Sergi Bray</h1>
             <div class="px-3 pt-3">
                 <h3 class="display-3">Publications</h3>
                 <br>
-                <table class="table fs-5">
+                <table class="table table-info table-borderless fs-5">
+                    <thead>
+                    <th class="px-4 pt-2">
+                        Authors
+                    </th>
+                    <th class="pt-2">
+                        Paper
+                    </th>
+                    <th class="pt-2 ps-3">
+                        Links
+                    </th>
+                    <th class="pt-2">
+                        Year
+                    </th>
+                    <th class="pt-2">
+                        Topic
+                    </th>
+                    </thead>
                     <tbody>
-                    <tr class="table-info">
-                        <th scope="row" class="p-3">
-                            <a href="https://www.ucl.ac.uk/cybersecurity-cdt/sites/cybersecurity-cdt/files/student-profiles-policy-briefing-good-practices-cybersecurity-behaviour-change.pdf">
-                                Bray, S., Milani, H., Vendeville, A. (2021). Good practices for cybersecurity behaviour
-                                change interventions.</a>
+
+
+                    <!--                    template:-->
+                    <!--                    <tr>-->
+                    <!--                        <td></td> &lt;!&ndash; authors &ndash;&gt;-->
+                    <!--                        <td></td> &lt;!&ndash; paper &ndash;&gt;-->
+                    <!--                        <td></td> &lt;!&ndash; links &ndash;&gt;-->
+                    <!--                        <td></td> &lt;!&ndash; year &ndash;&gt;-->
+                    <!--                        <td></td> &lt;!&ndash; topic &ndash;&gt;-->
+                    <!--                    </tr>-->
+
+
+                    <tr class="table-active">
+                        <td class="px-4 pt-4">
+                            Sergi Bray, Shane Johnson, Bennett Kleinberg
+                        </td>
+                        <td class="pt-4">
+                            <strong>Testing Human Ability To Detect “Deepfake” Images of Human Faces</strong>
+                        </td>
+                        <td class="pt-4 ps-3">
+                            <small><a href="https://arxiv.org/abs/2212.05056">Pre-print</a>;<br>
+                                <a href="https://github.com/sergibot/FakeFacesSurvey">survey webapp</a>;<br>
+                                <a href="https://osf.io/tfn7v/">code/data</a></small>.
+                        </td>
+                        <td class="pt-4">
+                            Dec 2022
+                        </td>
+                        <td class="pt-4">
+                            Human Detection of Deepfakes
+                        </td>
+                    </tr>
+                    <tr class="table-active">
+                        <td colspan="6" class="px-5 py-5"><small>
+                                A survey of 280 participants recruited via Prolific.co;
+                            conditions: <strong>control, familiarization, one-time-advice,
+                            advice-with-reminders</strong>. <br>
+                            Main task: <strong>label an image as being "AI-generated" or "real"</strong>, for 20
+                            questions. <br>
+                            Image stimuli used: 50 real from <strong>FFHQ</strong>; 50 deepfake from <strong>StyleGAN2:FFHQ</strong>.<br>
+                            Control condition mean accuracy = 60%;
+                            Adv-w-rem condition mean acc (highest) = 64%.
+                            <strong>Overall mean accuracy = 62%.</strong> <br>
+                            One-way ANOVA suggested no statistically significant differences between groups.
+                            In other words...
                             <br>
-                            This was a Policy Briefing resulting from a Systematic Literature Review on the topic of
-                            Cybersecurity Behaviour Change Interventions.
-                        </th>
+                            <strong>
+                                None of the policy-applicable, scalable advice that we tried led to a significant
+                                improvement
+                                in human accuracy at detecting deepfake from non-deepfake images.
+                                Accuracy was low (62%, close to chance level 50%),
+                                but confidence remained high throughout (mean confidence was 6.8 in a 0-9 Likert scale).
+                            </strong>
+                        </small>
+                        </td>
                     </tr>
-                    <tr class="table-primary">
-                        <th scope="row" class="p-3">
-                            One major publication is upcoming (in revision for journal now).
-                            Bray, S., Johnson, D., Kleinberg, B. (2022). Testing Human Ability To Detect "Deepfake" Images of Human Faces
-                            https://arxiv.org/abs/2212.05056
-                        </th>
+
+
+                    <tr>
+                        <td class="px-4 pt-4">
+                            Sergi Bray, Hawra Milani, Antoine Vendeville
+                        </td>
+                        <td class="pt-4">
+                            <strong>Good practices for cybersecurity behaviour</strong>
+                        </td>
+                        <td class="pt-4 ps-3">
+                            <small>
+                                <a href="https://www.ucl.ac.uk/cybersecurity-cdt/sites/cybersecurity-cdt/files/student-profiles-policy-briefing-good-practices-cybersecurity-behaviour-change.pdf">Paper</a>.
+                            </small>
+                        </td>
+                        <td class="pt-4">
+                            2021
+                        </td>
+                        <td class="pt-4">
+                            Improving Human Cybersecurity Behaviour
+                        </td>
                     </tr>
-                    <tr class="table-primary">
-                        <th scope="row" class="p-3">
-                            I am also about to present
-                            <a href="https://www.securitybsides.org.uk/schedule.html">
-                                a workshop at BSides London this December</a>.
-                        </th>
+                    <tr>
+                        <!--                        <td></td>-->
+                        <td colspan="6" class="px-5 pb-3">
+                            <small>This was a Policy Briefing resulting from a Systematic Literature Review on the topic
+                                of Cybersecurity Behaviour Change Interventions.
+                            </small>
+                        </td>
                     </tr>
                     </tbody>
                 </table>
@@ -131,6 +204,10 @@
         </div>
     </div>
     <div class="row" id="prj" style="display:none">
+        <div class="col-sm-4">
+            <img src="static/img/sergi_bass.jpg" class="img-thumbnail">
+            <p class="fs-6 text-end p-2">Photo Credit: <a href="https://sharad1126.github.io/">Sharad Agarwal</a>
+        </div>
         <div class="col">
             <h1 class="display-1">Sergi Bray</h1>
             <div class="px-3 pt-3">
