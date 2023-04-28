@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bray_2022_dfimgdetn-dataset">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/static/papers/bray_2022_dfimgdetn/bray_2022_dfimgdetn-dataset.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
